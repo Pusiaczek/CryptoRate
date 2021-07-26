@@ -1,0 +1,35 @@
+.crypto-list {
+    list-style: none;
+    width: 60%;
+    margin: auto;
+    font-weight: 600;
+}
+
+.crypto-list__filter {
+    padding: 15px;
+    margin: 15px;
+    font-size: 1.2rem;
+}
+
+.crypto-list__filter::placeholder {
+    color: darkgray;
+}
+
+.crypto-list__filter:focus {
+    outline: 2px lightblue solid;
+}
+
+.crypto-list__title {
+    margin: 0 5px;
+    
+}
+
+.crypto-list__item {
+    border: 1px solid darkgray;
+    margin: 4px 0;
+    padding: 15px;
+}
+
+.crypto-list__currency-symbol {
+    margin: 0 5px;
+}
